@@ -1,0 +1,51 @@
+{
+  "name": "MWPhotoBrowser",
+  "version": "2.1.2",
+  "license": "MIT",
+  "summary": "A simple iOS photo and video browser with optional grid view, captions and selections.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          MWPhotoBrowser can display one or more images or videos by providing either UIImage\nobjects, PHAsset objects, or URLs to library assets, web images/videos or local files.\nThe photo browser handles the downloading and caching of photos from the web seamlessly.\nPhotos can be zoomed and panned, and optional (customisable) captions can be displayed.",
+  "screenshots": [
+    "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser1.png",
+    "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser2.png",
+    "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser3.png",
+    "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser4.png",
+    "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser5.png",
+    "https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser6.png"
+  ],
+  "homepage": "https://github.com/mwaterfall/MWPhotoBrowser",
+  "authors": {
+    "Michael Waterfall": "michaelwaterfall@gmail.com"
+  },
+  "social_media_url": "https://twitter.com/mwaterfall",
+  "source": {
+    "http": "http://localhost:8080/frameworks/MWPhotoBrowser/2.1.2/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "bin_MWPhotoBrowser_2.1.2/Headers/*",
+  "requires_arc": true,
+  "frameworks": [
+    "ImageIO",
+    "QuartzCore",
+    "AssetsLibrary",
+    "MediaPlayer"
+  ],
+  "weak_frameworks": "Photos",
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 0.9"
+    ],
+    "DACircularProgress": [
+      "~> 2.3"
+    ],
+    "SDWebImage": [
+      "~> 3.7",
+      "!= 3.7.2"
+    ]
+  },
+  "resources": "bin_MWPhotoBrowser_2.1.2/Resources/*",
+  "public_header_files": "bin_MWPhotoBrowser_2.1.2/Headers/*.h",
+  "vendored_libraries": "bin_MWPhotoBrowser_2.1.2/*.a"
+}
