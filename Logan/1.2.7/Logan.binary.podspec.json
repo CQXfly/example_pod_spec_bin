@@ -1,0 +1,40 @@
+{
+  "name": "Logan",
+  "version": "1.2.7",
+  "summary": "Logan is a lightweight case logging system based on mobile platform.",
+  "homepage": "https://github.com/Meituan-Dianping/Logan",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiangteng": "jiangteng.cn@gmail.com",
+    "yxiangnan": "yxiangnan@gmail.com",
+    "maxiaojun": "xiaojun_ma@qq.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/Logan/1.2.7/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "Logan/iOS/*",
+    "Logan/Clogan/*.{h,c}"
+  ],
+  "public_header_files": "Logan/iOS/*.h",
+  "vendored_frameworks": "Logan.framework",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」",
+  "subspecs": [
+    {
+      "name": "mbedtls",
+      "source_files": "Logan/mbedtls/**/*.{h,c}",
+      "header_dir": "mbedtls",
+      "private_header_files": "Logan/mbedtls/**/*.h",
+      "pod_target_xcconfig": {
+        "HEADER_SEARCH_PATHS": "${PODS_ROOT}/Logan/Logan/**"
+      }
+    }
+  ]
+}
