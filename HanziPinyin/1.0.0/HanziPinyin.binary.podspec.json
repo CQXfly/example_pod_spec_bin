@@ -1,0 +1,29 @@
+{
+  "name": "HanziPinyin",
+  "version": "1.0.0",
+  "summary": "A lightweight Swift library supporting convertion between Chinese(both Simplified and Tranditional) characters and Pinyin.",
+  "homepage": "https://github.com/teambition/HanziPinyin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": "Xin Hong",
+  "source": {
+    "http": "http://localhost:8080/frameworks/HanziPinyin/1.0.0/zip",
+    "type": "zip"
+  },
+  "source_files": "HanziPinyin/*.swift",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "frameworks": "Foundation",
+  "swift_versions": "5.0",
+  "vendored_frameworks": "HanziPinyin.framework",
+  "resources": [
+    "HanziPinyin.framework/Resources/*.bundle",
+    "HanziPinyin.framework/Versions/A/Resources/*.bundle"
+  ],
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」",
+  "swift_version": "5.0"
+}
