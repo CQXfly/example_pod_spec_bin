@@ -19,8 +19,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "bin_Logan_1.2.7/Headers/*",
-  "public_header_files": "bin_Logan_1.2.7/Headers/*.h",
-  "vendored_libraries": "bin_Logan_1.2.7/*.a",
+
+  "vendored_frameworks": "Logan.framework",
+  
   "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
 }
