@@ -36,5 +36,5 @@
       "~> 1.2.7"
     ]
   },
-  "vendored_libraries": "bin_MMKV_1.2.7/*.a"
+  "vendored_frameworks": "MMKV.framework"
 }

@@ -47,5 +47,5 @@
     "CLANG_CXX_LIBRARY": "libc++",
     "CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF": "NO"
   },
-  "vendored_libraries": "bin_MMKVCore_1.2.7/*.a"
+  "vendored_frameworks": "MMKVCore.framework"
 }
