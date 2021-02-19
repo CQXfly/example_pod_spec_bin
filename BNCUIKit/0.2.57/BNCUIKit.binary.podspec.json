@@ -17,5 +17,8 @@
     "platforms": {
         "ios": "11.0"
     },
+    "resources": [
+        "BNCUIKit.framework/*.bundle"
+    ],
     "vendored_frameworks": "BNCUIKit.framework"
 }
