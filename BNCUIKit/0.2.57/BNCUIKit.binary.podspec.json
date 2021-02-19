@@ -2,7 +2,7 @@
     "name": "BNCUIKit",
     "version": "0.2.57",
     "source": {
-        "http": "http://localhost:8080/frameworks/BNCUIKit/0.2.59/zip",
+        "http": "http://localhost:8080/frameworks/BNCUIKit/0.2.57/zip",
         "type": "zip"
     },
     "homepage": "https://github.com/CoderMJLee/MJRefresh",
