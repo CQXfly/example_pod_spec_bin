@@ -13,7 +13,7 @@
       "maxiaojun": "xiaojun_ma@qq.com"
     },
     "source": {
-      "http": "http://localhost:8080/frameworks/Lottie/1.2.7/zip",
+      "http": "http://localhost:8080/frameworks/Lottie/3.1.9/zip",
       "type": "zip"
     },
     "platforms": {
