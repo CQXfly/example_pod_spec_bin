@@ -1,0 +1,18 @@
+{
+    "name": "AlamofireNetworkActivityIndicator",
+    "version": "2.4.0",
+    "source": {
+        "http": "http://localhost:8080/frameworks/AlamofireNetworkActivityIndicator/2.4.0/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/Alamofire/AlamofireNetworkActivityIndicator",
+    "license": "MIT",
+    "authors": {
+        "Alamofire Software Foundation": "info@alamofire.org"
+    },
+    "summary": "Controls the visibility of the network activity indicator on iOS using Alamofire",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_frameworks": "AlamofireNetworkActivityIndicator.framework"
+}
