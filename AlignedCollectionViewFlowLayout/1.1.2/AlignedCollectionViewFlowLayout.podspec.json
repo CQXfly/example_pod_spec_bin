@@ -1,0 +1,21 @@
+{
+    "name": "AlignedCollectionViewFlowLayout",
+    "version": "1.1.2",
+    "source": {
+        "http": "http://localhost:8080/frameworks/AlignedCollectionViewFlowLayout/1.1.2/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/mischa-hildebrand/AlignedCollectionViewFlowLayout",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Mischa Hildebrand": "web@mischa-hildebrand.de"
+    },
+    "summary": "A collection view layout that gives you control over the horizontal and vertical alignment of the cells.",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_frameworks": "AlignedCollectionViewFlowLayout.framework"
+}
