@@ -1,0 +1,30 @@
+{
+    "name": "Kingfisher",
+    "version": "5.7.1",
+    "source": {
+        "http": "http://localhost:8080/frameworks/Kingfisher/5.7.1/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/onevcat/Kingfisher",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "onevcat": "onevcat@gmail.com"
+    },
+    "summary": "A lightweight and pure Swift implemented library for downloading and cacheing image from the web.",
+    "platforms": {
+        "ios": "10.0",
+        "tvos": "10.0",
+        "osx": "10.12",
+        "watchos": "3.0"
+    },
+    "ios": {
+        "exclude_files": [
+            "Sources/Extensions/NSButton+Kingfisher.swift",
+            "Sources/Extensions/WKInterfaceImage+Kingfisher.swift"
+        ]
+    },
+    "vendored_frameworks": "Kingfisher.framework"
+}
