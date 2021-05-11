@@ -1,0 +1,22 @@
+{
+    "name": "FirebaseCoreDiagnostics",
+    "version": "7.9.0",
+    "source": {
+        "http": "http://localhost:8080/frameworks/FirebaseCoreDiagnostics/7.9.0/zip",
+        "type": "zip"
+    },
+    "homepage": "https://firebase.google.com",
+    "license": {
+        "type": "Apache",
+        "file": "LICENSE"
+    },
+    "authors": "Google, Inc.",
+    "summary": "Firebase Core Diagnostics",
+    "platforms": {
+        "ios": "9.0",
+        "osx": "10.12",
+        "tvos": "10.0",
+        "watchos": "6.0"
+    },
+    "vendored_frameworks": "FirebaseCoreDiagnostics.framework"
+}
