@@ -1,0 +1,21 @@
+{
+    "name": "JXPhotoBrowser",
+    "version": "2.2.6",
+    "source": {
+        "http": "http://localhost:8080/frameworks/JXPhotoBrowser/2.2.6/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/JiongXing/PhotoBrowser",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "JiongXing": "liangjiongxing@qq.com"
+    },
+    "summary": "Elegant photo browser in Swift.",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "vendored_frameworks": "JXPhotoBrowser.framework"
+}
