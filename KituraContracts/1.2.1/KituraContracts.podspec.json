@@ -1,0 +1,21 @@
+{
+    "name": "KituraContracts",
+    "version": "1.2.1",
+    "source": {
+        "http": "http://localhost:8080/frameworks/KituraContracts/1.2.1/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/IBM-Swift/KituraContracts",
+    "license": {
+        "type": "Apache License, Version 2.0"
+    },
+    "authors": "IBM",
+    "summary": "KituraContracts is a library containing type definitions shared by client and server code.",
+    "platforms": {
+        "osx": "10.11",
+        "ios": "10.0",
+        "tvos": "9.1",
+        "watchos": "2.0"
+    },
+    "vendored_frameworks": "KituraContracts.framework"
+}
