@@ -1,0 +1,26 @@
+{
+    "name": "SSZipArchive",
+    "version": "2.2.3",
+    "source": {
+        "http": "http://localhost:8080/frameworks/SSZipArchive/2.2.3/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/ZipArchive/ZipArchive",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE.txt"
+    },
+    "authors": {
+        "Sam Soffes": "sam@soff.es",
+        "Joshua Hudson": null,
+        "Antoine Cœur": null
+    },
+    "summary": "Utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS.",
+    "platforms": {
+        "ios": "9.0",
+        "tvos": "9.0",
+        "osx": "10.8",
+        "watchos": "2.0"
+    },
+    "vendored_frameworks": "SSZipArchive.framework"
+}
