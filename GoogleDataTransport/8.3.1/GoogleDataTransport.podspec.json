@@ -1,0 +1,28 @@
+{
+    "name": "GoogleDataTransport",
+    "version": "8.3.1",
+    "source": {
+        "http": "http://localhost:8080/frameworks/GoogleDataTransport/8.3.1/zip",
+        "type": "zip"
+    },
+    "homepage": "https://developers.google.com/",
+    "license": {
+        "type": "Apache",
+        "file": "LICENSE"
+    },
+    "authors": "Google, Inc.",
+    "summary": "Google iOS SDK data transport.",
+    "platforms": {
+        "ios": "9.0",
+        "osx": "10.12",
+        "tvos": "10.0",
+        "watchos": "6.0"
+    },
+    "ios": {
+        "frameworks": [
+            "SystemConfiguration",
+            "CoreTelephony"
+        ]
+    },
+    "vendored_frameworks": "GoogleDataTransport.framework"
+}
