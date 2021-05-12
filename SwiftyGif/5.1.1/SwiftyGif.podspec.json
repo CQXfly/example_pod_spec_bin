@@ -1,0 +1,21 @@
+{
+    "name": "SwiftyGif",
+    "version": "5.1.1",
+    "source": {
+        "http": "http://localhost:8080/frameworks/SwiftyGif/5.1.1/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/kirualex/SwiftyGif",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Alexis Creuzot": "alexis.creuzot@gmail.com"
+    },
+    "summary": "High performance Gif engine in Swift. Add and control Gif images easily!",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_frameworks": "SwiftyGif.framework"
+}
