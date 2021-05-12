@@ -1,0 +1,21 @@
+{
+    "name": "FMDB",
+    "version": "2.7.5",
+    "source": {
+        "http": "http://localhost:8080/frameworks/FMDB/2.7.5/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/ccgus/fmdb",
+    "license": "MIT",
+    "authors": {
+        "August Mueller": "gus@flyingmeat.com"
+    },
+    "summary": "A Cocoa / Objective-C wrapper around SQLite.",
+    "platforms": {
+        "osx": null,
+        "ios": null,
+        "tvos": null,
+        "watchos": null
+    },
+    "vendored_frameworks": "FMDB.framework"
+}
