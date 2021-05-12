@@ -1,0 +1,21 @@
+{
+    "name": "BlueECC",
+    "version": "1.2.5",
+    "source": {
+        "http": "http://localhost:8080/frameworks/BlueECC/1.2.5/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/IBM-Swift/BlueECC",
+    "license": {
+        "type": "Apache License, Version 2.0"
+    },
+    "authors": "IBM",
+    "summary": "Swift cross-platform ECC crypto library using CommonCrypto/libcrypto via Package Manager.",
+    "platforms": {
+        "osx": "10.13",
+        "ios": "11.0",
+        "tvos": "11.0",
+        "watchos": "4.0"
+    },
+    "vendored_frameworks": "CryptorECC.framework"
+}
