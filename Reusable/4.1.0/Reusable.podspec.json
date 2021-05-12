@@ -1,0 +1,22 @@
+{
+    "name": "Reusable",
+    "version": "4.1.0",
+    "source": {
+        "http": "http://localhost:8080/frameworks/Reusable/4.1.0/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/AliSoftware/Reusable",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Olivier Halligon": "olivier@halligon.net"
+    },
+    "summary": "A Swift Mixin to deal with reusable UITableView & UICollectionView cells and XIB-based views",
+    "platforms": {
+        "ios": "8.0",
+        "tvos": "9.0"
+    },
+    "vendored_frameworks": "Reusable.framework"
+}
