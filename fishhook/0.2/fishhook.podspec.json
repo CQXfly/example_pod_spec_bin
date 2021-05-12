@@ -1,0 +1,21 @@
+{
+    "name": "fishhook",
+    "version": "0.2",
+    "source": {
+        "http": "http://localhost:8080/frameworks/fishhook/0.2/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/facebook/fishhook",
+    "license": {
+        "type": "BSD",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Facebook, Inc.": "https://github.com/facebook"
+    },
+    "summary": "A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS.",
+    "platforms": {
+        "ios": "6.0"
+    },
+    "vendored_frameworks": "fishhook.framework"
+}
