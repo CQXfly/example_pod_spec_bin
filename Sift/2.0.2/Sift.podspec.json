@@ -1,0 +1,28 @@
+{
+    "name": "Sift",
+    "version": "2.0.2",
+    "source": {
+        "http": "http://localhost:8080/frameworks/Sift/2.0.2/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/SiftScience/sift-ios",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": "Sift Science",
+    "summary": "Machine learning fraud detection and prevention",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "ios": {
+        "frameworks": [
+            "CoreLocation",
+            "CoreMotion",
+            "CoreTelephony",
+            "Foundation",
+            "UIKit"
+        ]
+    },
+    "vendored_frameworks": "Sift.framework"
+}
