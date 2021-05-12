@@ -1,0 +1,27 @@
+{
+    "name": "QRCoder",
+    "version": "1.1.0",
+    "source": {
+        "http": "http://localhost:8080/frameworks/QRCoder/1.1.0/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/sbhklr/QRCoder",
+    "license": "MIT",
+    "authors": {
+        "Sebastian Hunkeler": "hunkeler.sebastian@gmail.com"
+    },
+    "summary": "A QR code generator and scanner for OSX and iOS written in Swift.",
+    "platforms": {
+        "ios": "8.0",
+        "osx": "10.9"
+    },
+    "ios": {
+        "source_files": "Pod/Classes/*.swift",
+        "frameworks": [
+            "Foundation",
+            "UIKit",
+            "QuartzCore"
+        ]
+    },
+    "vendored_frameworks": "QRCoder.framework"
+}
