@@ -2,7 +2,7 @@
     "name": "BlueCryptor",
     "version": "1.0.32",
     "source": {
-        "http": "http://localhost:8080/frameworks/BlueCryptor/1.0.32/zip",
+        "http": "http://localhost:8080/frameworks/Cryptor/1.0.32/zip",
         "type": "zip"
     },
     "homepage": "https://github.com/IBM-Swift/BlueCryptor",
