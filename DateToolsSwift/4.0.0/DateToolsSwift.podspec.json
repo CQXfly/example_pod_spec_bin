@@ -1,0 +1,24 @@
+{
+    "name": "DateToolsSwift",
+    "version": "4.0.0",
+    "source": {
+        "http": "http://localhost:8080/frameworks/DateToolsSwift/4.0.0/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/MatthewYork/DateTools",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Matthew York": "my3681@gmail.com"
+    },
+    "summary": "Dates and time made easy in Swift",
+    "platforms": {
+        "ios": "8.0",
+        "osx": "10.9",
+        "tvos": "9.0",
+        "watchos": "2.0"
+    },
+    "vendored_frameworks": "DateToolsSwift.framework"
+}
