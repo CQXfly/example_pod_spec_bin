@@ -1,0 +1,24 @@
+{
+    "name": "BonMot",
+    "version": "5.4.1",
+    "source": {
+        "http": "http://localhost:8080/frameworks/BonMot/5.4.1/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/Raizlabs/BonMot",
+    "license": "MIT",
+    "authors": {
+        "Zev Eisenberg": "zev.eisenberg@raizlabs.com"
+    },
+    "summary": "Beautiful, easy attributed strings in Swift",
+    "platforms": {
+        "ios": "9.0",
+        "tvos": "9.0",
+        "osx": "10.11",
+        "watchos": "2.2"
+    },
+    "ios": {
+        "source_files": "Sources/**/*.swift"
+    },
+    "vendored_frameworks": "BonMot.framework"
+}
