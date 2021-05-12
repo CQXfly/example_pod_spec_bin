@@ -1,0 +1,18 @@
+{
+    "name": "FSPagerView",
+    "version": "0.8.3",
+    "source": {
+        "http": "http://localhost:8080/frameworks/FSPagerView/0.8.3/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/WenchaoD/FSPagerView",
+    "license": "MIT",
+    "authors": {
+        "Wenchao Ding": "f33chobits@gmail.com"
+    },
+    "summary": "FSPagerView is an elegant Screen Slide Library for making Banner、Product Show、Welcome/Guide Pages、Screen/ViewController Sliders.",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_frameworks": "FSPagerView.framework"
+}
