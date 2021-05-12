@@ -1,0 +1,20 @@
+{
+    "name": "SensorsAnalyticsSDK",
+    "version": "2.5.4",
+    "source": {
+        "http": "http://localhost:8080/frameworks/SensorsAnalyticsSDK/2.5.4/zip",
+        "type": "zip"
+    },
+    "homepage": "http://www.sensorsdata.cn",
+    "license": {
+        "type": "Apache License, Version 2.0"
+    },
+    "authors": {
+        "Yuhan ZOU": "zouyuhan@sensorsdata.cn"
+    },
+    "summary": "The official iOS SDK of Sensors Analytics.",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_frameworks": "SensorsAnalyticsSDK.framework"
+}
