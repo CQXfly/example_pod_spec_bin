@@ -1,0 +1,21 @@
+{
+    "name": "BlueCryptor",
+    "version": "1.0.32",
+    "source": {
+        "http": "http://localhost:8080/frameworks/BlueCryptor/1.0.32/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/IBM-Swift/BlueCryptor",
+    "license": {
+        "type": "Apache License, Version 2.0"
+    },
+    "authors": "IBM",
+    "summary": "Swift cross-platform crypto library using CommonCrypto/libcrypto via Package Manager.",
+    "platforms": {
+        "osx": "10.11",
+        "ios": "10.0",
+        "tvos": "10.0",
+        "watchos": "2.0"
+    },
+    "vendored_frameworks": "Cryptor.framework"
+}
