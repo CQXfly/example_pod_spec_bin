@@ -1,0 +1,23 @@
+{
+    "name": "SwiftMessages",
+    "version": "7.0.1",
+    "source": {
+        "http": "http://localhost:8080/frameworks/SwiftMessages/7.0.1/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/SwiftKickMobile/SwiftMessages",
+    "license": {
+        "type": "MIT"
+    },
+    "authors": {
+        "Timothy Moose": "tim@swiftkick.it"
+    },
+    "summary": "A very flexible message bar for iOS written in Swift.",
+    "resources": [
+        "SwiftMessages.framework/Resources/*.bundle"
+    ],
+    "platforms": {
+        "ios": "9.0"
+    },
+    "vendored_frameworks": "SwiftMessages.framework"
+}
