@@ -1,0 +1,32 @@
+{
+    "name": "lottie-ios",
+    "version": "3.2.2",
+    "source": {
+        "http": "http://localhost:8080/frameworks/Lottie/3.2.2/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/airbnb/lottie-ios",
+    "license": {
+        "type": "Apache",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Brandon Withrow": "buba447@gmail.com"
+    },
+    "summary": "A library to render native animations from bodymovin json. Now in Swift!",
+    "platforms": {
+        "ios": "9.0",
+        "osx": "10.10",
+        "tvos": "9.0"
+    },
+    "ios": {
+        "source_files": "lottie-swift/iOS/*.swift",
+        "exclude_files": "lottie-swift/src/Public/MacOS/**/*",
+        "frameworks": [
+            "UIKit",
+            "CoreGraphics",
+            "QuartzCore"
+        ]
+    },
+    "vendored_frameworks": "Lottie.framework"
+}
