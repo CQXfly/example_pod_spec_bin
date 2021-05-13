@@ -1,0 +1,21 @@
+{
+    "name": "MYTableViewIndex",
+    "version": "0.8.0",
+    "source": {
+        "http": "http://localhost:8080/frameworks/MYTableViewIndex/0.8.0/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/mindz-eye/MYTableViewIndex",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Makarov Yuriy": "makarov.yuriy@gmail.com"
+    },
+    "summary": "A pixel perfect replacement for UITableView section index, written in Swift.",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_frameworks": "MYTableViewIndex.framework"
+}
