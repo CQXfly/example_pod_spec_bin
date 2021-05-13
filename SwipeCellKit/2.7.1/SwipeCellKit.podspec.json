@@ -1,0 +1,16 @@
+{
+    "name": "SwipeCellKit",
+    "version": "2.7.1",
+    "source": {
+        "http": "http://localhost:8080/frameworks/SwipeCellKit/2.7.1/zip",
+        "type": "zip"
+    },
+    "homepage": "https://github.com/SwipeCellKit/SwipeCellKit",
+    "license": "MIT",
+    "authors": "Mohammad Kurabi",
+    "summary": "Swipeable UITableViewCell based on the stock Mail.app, implemented in Swift.",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "vendored_frameworks": "SwipeCellKit.framework"
+}
