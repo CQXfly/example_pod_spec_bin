@@ -1,0 +1,22 @@
+{
+    "name": "Highlightr",
+    "version": "2.1.0",
+    "source": {
+        "http": "http://localhost:8080/frameworks/Highlightr/2.1.0/zip",
+        "type": "zip"
+    },
+    "homepage": "http://github.com/raspu/Highlightr",
+    "license": "MIT",
+    "authors": {
+        "J.P. Illanes": "jpillaness@gmail.com"
+    },
+    "summary": "iOS & macOS Syntax Highlighter.",
+    "platforms": {
+        "osx": "10.11",
+        "ios": "8.0"
+    },
+    "ios": {
+        "frameworks": "UIKit"
+    },
+    "vendored_frameworks": "Highlightr.framework"
+}
