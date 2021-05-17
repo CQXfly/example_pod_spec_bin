@@ -2,7 +2,7 @@
     "name": "SwiftMessages",
     "version": "7.0.1",
     "source": {
-        "http": "http://localhost:8080/frameworks/SwiftMessages/7.0.1/zip",
+        "http": "http://localhost:8080/frameworks/SwiftMessages/7.0.2/zip",
         "type": "zip"
     },
     "homepage": "https://github.com/SwiftKickMobile/SwiftMessages",
@@ -13,8 +13,31 @@
         "Timothy Moose": "tim@swiftkick.it"
     },
     "summary": "A very flexible message bar for iOS written in Swift.",
-    "resources": [
-        "SwiftMessages.framework/Resources/*.bundle"
+    "default_subspecs": "App",
+    "subspecs": [
+      {
+        "name": "App",
+        "source_files": "SwiftMessages/**/*.swift",
+        "resource_bundles": {
+          "SwiftMessages": [
+            "SwiftMessages/Resources/*.*"
+          ]
+        }
+      },
+      {
+        "name": "AppExtension",
+        "source_files": "SwiftMessages/**/*.swift",
+        "exclude_files": "SwiftMessages/**/SegueConvenienceClasses.swift",
+        "resource_bundles": {
+          "SwiftMessages_SwiftMessages": [
+            "SwiftMessages/Resources/**/*.*"
+          ]
+        },
+        "pod_target_xcconfig": {
+          "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "SWIFTMESSAGES_APP_EXTENSIONS",
+          "GCC_PREPROCESSOR_DEFINITIONS": "SWIFTMESSAGES_APP_EXTENSIONS=1"
+        }
+      }
     ],
     "platforms": {
         "ios": "9.0"
